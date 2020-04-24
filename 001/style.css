@@ -1,0 +1,39 @@
+body,
+html {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  height: 100vh;
+  background-image: url("adventrure.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup {
+  background-color: #212121c9;
+  color: white;
+  border-radius: 10px;
+  padding: 2em;
+  text-align: center;
+}
+
+.signup input {
+  padding: 1em;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+}
+
+.signup button {
+  padding: 1em;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(40, 141, 40);
+  color: white;
+}
